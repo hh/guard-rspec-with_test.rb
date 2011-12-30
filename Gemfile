@@ -1,6 +1,9 @@
 source "http://rubygems.org"
 
 group :development do
+  gem 'rspec-expectations'
+  gem 'rspec-mocks'
+  gem 'rspec-core'
   gem 'guard', "0.8.8"
   gem 'libnotify'
   gem 'rb-inotify'
